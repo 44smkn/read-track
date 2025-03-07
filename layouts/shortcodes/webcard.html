@@ -1,0 +1,52 @@
+{{- $url := .Get 0 -}}
+{{- $resp := resources.GetRemote $url -}}
+{{- $html := $resp.Content | safeHTML -}}
+
+{{- $reTitle := `(?i)<title[^>]*>(.*?)</title>` -}}
+{{- $reDescription := `(?i)<meta[^>]+name=["']description["'][^>]*content=["']([^"']+)["'][^>]*>` -}}
+{{- $reOgTitle := `(?i)<meta[^>]+property=["']og:title["'][^>]*content=["']([^"']+)["'][^>]*>` -}}
+{{- $reOgDesc := `(?i)<meta[^>]+property=["']og:description["'][^>]*content=["']([^"']+)["'][^>]*>` -}}
+{{- $reOgImage := `(?i)<meta[^>]+property=["']og:image["'][^>]*content=["']([^"']+)["'][^>]*>` -}}
+
+{{- $title := "" -}}
+{{- $description := "" -}}
+{{- $image := "" -}}
+
+{{- with findRE $reOgTitle $html 1 -}}
+  {{- $title = index . 0 | replaceRE `(?i)<meta[^>]+property=["']og:title["'][^>]*content=["']([^"']+)["'][^>]*>` "$1" -}}
+{{- else -}}
+  {{- with findRE $reTitle $html 1 -}}
+    {{- $title = index . 0 | replaceRE `(?i)<title[^>]*>(.*?)</title>` "$1" -}}
+  {{- else -}}
+    {{- $title = $url -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with findRE $reOgDesc $html 1 -}}
+  {{- $description = index . 0 | replaceRE `(?i)<meta[^>]+property=["']og:description["'][^>]*content=["']([^"']+)["'][^>]*>` "$1" -}}
+{{- else -}}
+  {{- with findRE $reDescription $html 1 -}}
+    {{- $description = index . 0 | replaceRE `(?i)<meta[^>]+name=["']description["'][^>]*content=["']([^"']+)["'][^>]*>` "$1" -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with findRE $reOgImage $html 1 -}}
+  {{- $image = index . 0 | replaceRE `(?i)<meta[^>]+property=["']og:image["'][^>]*content=["']([^"']+)["'][^>]*>` "$1" -}}
+{{- end -}}
+
+<div class="webcard">
+  <a class="webcard-link" href="{{ $url | safeURL }}" target="_blank" rel="noopener">
+    {{- if $image -}}
+      <div class="webcard-image">
+        <img src="{{ $image | safeURL }}" alt="{{ $title }}">
+      </div>
+    {{- end -}}
+    <div class="webcard-content">
+      <div class="webcard-title">{{ $title }}</div>
+      {{- if $description -}}
+        <div class="webcard-description">{{ $description }}</div>
+      {{- end -}}
+      <div class="webcard-url">{{ $url }}</div>
+    </div>
+  </a>
+</div>

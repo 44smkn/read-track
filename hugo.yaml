@@ -1,0 +1,83 @@
+baseURL: https://44smkn.github.io/read-track/
+title: 44smkn's Read Track
+theme: PaperMod
+languageCode: ja-jp
+defaultContentLanguage: ja
+pagination:
+  pagerSize: 10
+enableRobotsTXT: false
+enableEmoji: true
+menus:
+  main:
+  - name: Archive
+    pageRef: /archives/
+    weight: 10
+  - name: Search
+    pageRef: /search/
+    weight: 20
+  - name: Tags
+    pageRef: /tags/
+    weight: 30
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
+params:
+  author: 44smkn
+  description: 本や記事の読書記録を残すブログ
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowPageNums: true
+  images: ["images/ogp-image.png"]
+  homeInfoParams:
+    Title: "Welcome to 44smkn's Read Track 👋"
+    Content: >
+      This is a blog for recording my reading such as books and articles 📚
+  socialIcons:
+    - name: github
+      title: My GitHub Profile
+      url: https://github.com/44smkn
+    - name: x
+      title: My X Profile
+      url: https://x.com/44smkn
+    - name: globe
+      title: My Blog
+      url: https://44smkn.hatenadiary.com/
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon.ico"
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow:
+      - ^dart-sass-embedded$
+      - ^go$
+      - ^npx$
+      - ^postcss$
+    osEnv:
+      - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$
+  funcs:
+    getenv:
+      - ^HUGO_
+  http:
+    methods:
+      - (?i)GET|POST
+    urls:
+      - ^.*$

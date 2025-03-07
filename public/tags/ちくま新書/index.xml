@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ちくま新書 on 44smkn&#39;s Read Track</title>
+    <link>http://localhost:1313/read-track/tags/%E3%81%A1%E3%81%8F%E3%81%BE%E6%96%B0%E6%9B%B8/</link>
+    <description>Recent content in ちくま新書 on 44smkn&#39;s Read Track</description>
+    <image>
+      <title>44smkn&#39;s Read Track</title>
+      <url>http://localhost:1313/read-track/images/ogp-image.png</url>
+      <link>http://localhost:1313/read-track/images/ogp-image.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/read-track/tags/%E3%81%A1%E3%81%8F%E3%81%BE%E6%96%B0%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>結婚の社会学</title>
+      <link>http://localhost:1313/read-track/posts/sociology-of-marriage/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/read-track/posts/sociology-of-marriage/</guid>
+      <description>&lt;div class=&#34;webcard&#34;&gt;
+  &lt;a class=&#34;webcard-link&#34; href=&#34;https://www.chikumashobo.co.jp/product/9784480076144/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;div class=&#34;webcard-image&#34;&gt;
+        &lt;img src=&#34;https://www.chikumashobo.co.jp/docs/images/book/big/9784480076144.jpg&#34; alt=&#34;『結婚の社会学』阪井　裕一郎|筑摩書房&#34;&gt;
+      &lt;/div&gt;&lt;div class=&#34;webcard-content&#34;&gt;
+      &lt;div class=&#34;webcard-title&#34;&gt;『結婚の社会学』阪井　裕一郎|筑摩書房&lt;/div&gt;&lt;div class=&#34;webcard-description&#34;&gt;筑摩書房『結婚の社会学』の書誌情報&lt;/div&gt;&lt;div class=&#34;webcard-url&#34;&gt;https://www.chikumashobo.co.jp/product/9784480076144/&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

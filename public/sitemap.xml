@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/read-track/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/read-track/posts/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/read-track/tags/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/read-track/tags/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/read-track/posts/nature-of-japanese-people/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/read-track/tags/%E6%96%B0%E6%9B%B8/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/read-track/posts/internet-industry-iwanami/</loc>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/read-track/tags/%E5%B2%A9%E6%B3%A2%E6%96%B0%E6%9B%B8/</loc>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/read-track/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/read-track/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/read-track/search/</loc>
+  </url>
+</urlset>
