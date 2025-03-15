@@ -31,7 +31,6 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowPageNums: true
-  images: ["images/ogp-image.png"]
   homeInfoParams:
     Title: "Welcome to 44smkn's Read Track 👋"
     Content: >
