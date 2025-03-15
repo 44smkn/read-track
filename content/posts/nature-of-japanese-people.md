@@ -2,7 +2,7 @@
 date: "2025-03-02"
 title: "欧米人とはこんなに違った日本人の「体質」"
 tags: ["新書", "ブルーバックス"]
-images: ["https://cv.bkmkn.kodansha.co.jp/9784062579971/9784062579971_w.jpg"]
+twitter_card_image: "https://cv.bkmkn.kodansha.co.jp/9784062579971/9784062579971_w.jpg"
 ---
 
 {{< webcard "https://bookclub.kodansha.co.jp/product?item=0000194958" >}}

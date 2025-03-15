@@ -2,7 +2,7 @@
 date: "2025-03-11"
 title: "科学的根拠（エビデンス）で子育て"
 tags: ["教育"]
-images: ["https://www.diamond.co.jp/book/fdhpkd000000bwqi-img/9784478121092.jpg"]
+twitter_card_image: "https://www.diamond.co.jp/book/fdhpkd000000bwqi-img/9784478121092.jpg"
 ---
 
 {{< webcard "https://www.diamond.co.jp/book/9784478121092.html" >}}

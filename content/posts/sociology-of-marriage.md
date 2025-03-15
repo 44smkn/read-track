@@ -2,7 +2,7 @@
 date: "2025-02-15"
 title: "結婚の社会学"
 tags: ["新書", "ちくま新書"]
-images: ["https://www.chikumashobo.co.jp/docs/images/book/big/9784480076144.jpg"]
+twitter_card_image: "https://www.chikumashobo.co.jp/docs/images/book/big/9784480076144.jpg"
 ---
 
 {{< webcard "https://www.chikumashobo.co.jp/product/9784480076144/" >}}

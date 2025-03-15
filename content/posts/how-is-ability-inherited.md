@@ -2,7 +2,7 @@
 date: "2025-02-11"
 title: "能力はどのように遺伝するのか 「生まれつき」と「努力」のあいだ"
 tags: ["新書", "ブルーバックス"]
-images: ["https://cv.bkmkn.kodansha.co.jp/9784065324059/9784065324059_w.jpg"]
+twitter_card_image: "https://cv.bkmkn.kodansha.co.jp/9784065324059/9784065324059_w.jpg"
 ---
 
 {{< webcard "https://bookclub.kodansha.co.jp/product?item=0000378842" >}}

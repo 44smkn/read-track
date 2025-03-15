@@ -2,7 +2,7 @@
 date: "2025-02-24"
 title: "外国語学習の科学 第二言語習得論とは何か"
 tags: ["新書", "岩波新書"]
-images: [https://www.iwanami.co.jp//images/book/225938.jpg]
+twitter_card_image: https://www.iwanami.co.jp//images/book/225938.jpg
 ---
 
 {{< webcard "https://www.iwanami.co.jp/book/b225938.html" >}}
