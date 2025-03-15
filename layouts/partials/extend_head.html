@@ -1,4 +1,5 @@
 {{- /* Twitter Card Image */ -}}
 {{- with .Params.twitter_card_image -}}
 <meta name="twitter:image" content="{{ . | absURL }}">
+<meta property="og:image" content="{{ . | absURL }}">
 {{- end -}}
