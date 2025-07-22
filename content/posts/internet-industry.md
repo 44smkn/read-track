@@ -1,6 +1,6 @@
 ---
 date: "2025-02-25"
-title: 'インターネット文明 (岩波新書 2031)'
+title: 'インターネット文明'
 tags: ["新書", "岩波新書"]
 twitter_card_image: "https://www.iwanami.co.jp//images/book/650788.jpg"
 ---
