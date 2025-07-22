@@ -1,0 +1,1 @@
+Please write code comments in English and use the imperative mood.
