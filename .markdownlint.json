@@ -1,4 +1,7 @@
 {
     "MD034": false,
-    "MD013": false
+    "MD013": false,
+    "MD012": {
+        "maximum": 2
+    }
 }
