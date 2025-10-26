@@ -1,5 +1,5 @@
 baseURL: https://44smkn.github.io/read-track/
-title: 44smkn's Read Track
+title: Read Track
 theme: PaperMod
 languageCode: ja-jp
 defaultContentLanguage: ja
@@ -9,20 +9,20 @@ enableRobotsTXT: false
 enableEmoji: true
 menus:
   main:
-  - name: Archive
-    pageRef: /archives/
-    weight: 10
-  - name: Search
-    pageRef: /search/
-    weight: 20
-  - name: Tags
-    pageRef: /tags/
-    weight: 30
+    - name: Archive
+      pageRef: /archives/
+      weight: 10
+    - name: Search
+      pageRef: /search/
+      weight: 20
+    - name: Tags
+      pageRef: /tags/
+      weight: 30
 outputs:
   home:
     - HTML
     - RSS
-    - JSON 
+    - JSON
 params:
   author: 44smkn
   description: 本や記事の読書記録を残すブログ
@@ -32,9 +32,9 @@ params:
   ShowBreadCrumbs: true
   ShowPageNums: true
   homeInfoParams:
-    Title: "Welcome to 44smkn's Read Track 👋"
+    Title: "44smknの読書雑メモ"
     Content: >
-      This is a blog for recording my reading such as books and articles 📚
+      本の感想やら気になったことをメモしていく場所です 📚
   socialIcons:
     - name: github
       title: My GitHub Profile

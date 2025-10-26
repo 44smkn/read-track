@@ -1,41 +1,60 @@
 :root {
-    --font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+
+    --font-size-std: 17px;
+    --line-height-std: 1.7;
+    --letter-spacing-std: 0.02em;
+
+    --line-height-dsp: 1.4;
+    --letter-spacing-dsp: 0em;
+
+    --line-height-mono: 1.5;
+    --letter-spacing-mono: 0;
+
+    --margin-scale-8px: 8px;
+    --margin-scale-24px: 24px;
+    --margin-scale-64px: 64px;
 }
 
 body {
     font-family: var(--font-family);
+    line-height: var(--line-height-std);
+    font-size: var(--font-size-std);
+    letter-spacing: var(--letter-spacing-std);
 }
 
-.post-content {
-    font-family: var(--font-family);
+code {
+    font-family: 'Noto Sans Mono', monospace;
+    line-height: var(--line-height-mono);
+    letter-spacing: var(--letter-spacing-mono);
 }
 
-.post-content p {
-    margin-bottom: 1.0em;
-}
-
-.post-content h1 {
-    margin-top: 3em;
-    margin-bottom: 1em;
-    font-family: var(--font-family);
+.post-title {
+    margin-top: var(--margin-scale-8px);
+    margin-bottom: var(--margin-scale-8px);
+    line-height: var(--line-height-dsp);
+    letter-spacing: var(--letter-spacing-dsp);
 }
 
 .post-content h2 {
-    margin-top: 2.5em;
-    margin-bottom: 1em;
-    font-family: var(--font-family);
+    margin-top: var(--margin-scale-64px);
+    margin-bottom: var(--margin-scale-24px);
+    line-height: var(--line-height-dsp);
+    letter-spacing: var(--letter-spacing-dsp);
 }
 
 .post-content h3 {
-    margin-top: 2em;
-    margin-bottom: 0.8em;
-    font-family: var(--font-family);
+    margin-top: var(--margin-scale-64px);
+    margin-bottom: var(--margin-scale-24px);
+    line-height: var(--line-height-dsp);
+    letter-spacing: var(--letter-spacing-dsp);
 }
 
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-    margin-top: 1.8em;
-    margin-bottom: 0.7em;
-    font-family: var(--font-family);
+    margin-top: var(--margin-scale-24px);
+    margin-bottom: var(--margin-scale-8px);
+    line-height: var(--line-height-dsp);
+    letter-spacing: var(--letter-spacing-dsp);
 }
